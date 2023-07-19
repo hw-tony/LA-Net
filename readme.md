@@ -10,7 +10,7 @@ Facial expression recognition (FER) remains a challenging task due to the ambigu
 
 ### Train
 
-We provide the pytorch code as an example. Please download the RAF-DB dataset from [Real-world Affective Faces (RAF) Database (whdeng.cn)](http://www.whdeng.cn/raf/model1.html) and put it under the folder: *./RAF_DB*
+We provide the pytorch code. Please download the RAF-DB dataset from [Real-world Affective Faces (RAF) Database (whdeng.cn)](http://www.whdeng.cn/raf/model1.html) and put it under the folder: *./RAF_DB*
 
 we provide the pre-detected facial landmarks in the *./Model_Data* folder. Note that the landmarks are actually not used in inference.
 
