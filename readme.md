@@ -1,6 +1,6 @@
 ## LA-Net: Landmark-Aware Learning for Reliable Facial Expression Recognition under Label Noise 
 
-![overall](E:\Codes\LA_Net\images\overall.jpg)
+![overall](./images/overall.jpg)
 
 Official implementation of the ICCV 2023 paper:  LA-Net: Landmark-Aware Learning for Reliable Facial Expression Recognition under Label Noise 
 
@@ -32,12 +32,12 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 -
 
 #### Performance on datasets with synthetic noise (symmetric noise)
 
-![symmetric_noise](E:\Codes\LA_Net\images\symmetric_noise.JPG)
+![symmetric_noise](./images/symmetric_noise.JPG)
 
 #### Performance on original datasets
 
-![clean_data](E:\Codes\LA_Net\images\clean_data.JPG)
+![clean_data](./images/clean_data.JPG)
 
 #### T-SNE visualization
 
-![t_sne](E:\Codes\LA_Net\images\t_sne.JPG)
+![t_sne](./images/t_sne.JPG)
