@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     # parameters for EL Loss
     parser.add_argument("--con_T", type=float, default=0.1)
-    parser.add_argument("--confidence", type=float, default=0.5)
+    parser.add_argument("--confidence", type=float, default=0.7)
     parser.add_argument("--banksize", type=int, default=8192)
     parser.add_argument("--moco_momentum", type=float, default=0.999)
 
